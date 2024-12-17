@@ -71,7 +71,6 @@ public class UserTest {
 	Assert.assertEquals(response.statusCode(), 200);
 	
 	//check if the data is unique
-	
 	Response responseAfterUpdate=UserEndPoint.readeUser(this.userPayload.getUserName());
 	Assert.assertEquals(responseAfterUpdate.getStatusCode(),200);
 		
