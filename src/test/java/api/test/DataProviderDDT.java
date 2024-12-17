@@ -8,7 +8,7 @@ import api.utilities.ExcelDataProvider;
 import io.restassured.response.Response;
 import junit.framework.Assert;
 
-public class DDTest {
+public class DataProviderDDT {
 	
 	
 	@Test(priority=1, dataProvider="Data", dataProviderClass=ExcelDataProvider.class)
